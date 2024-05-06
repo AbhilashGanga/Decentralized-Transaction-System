@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error: Incorrect Transaction Details</title>
+    <link href="{{url_for('static',filename = 'css/sb-admin-2.css')}}" rel="stylesheet"> <!-- Link your stylesheet here -->
+</head>
+
+<body class="bg-gradient-primary">
+
+    <div class="container">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Error: Incorrect User Details</h1>
+                                        <p class="mb-4">Please check the details you entered for the transaction.
+                                            You may have tried a conflicting username or userid or both. Please check if you have not enetered blank for userid and username</p>
+                                    </div>
+                                    <a href="/register" class="btn btn-primary btn-user btn-block">
+                                        Go Back to Registration
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
