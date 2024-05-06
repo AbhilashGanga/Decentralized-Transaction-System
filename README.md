@@ -1,4 +1,4 @@
-# Web Application README
+# Decentralized Transaction System
 
 ### User Registration/Login
 - Users can register or log in using their credentials to access the system.
